@@ -1,0 +1,121 @@
+.fondo {
+    background: linear-gradient(to right, rgb(28, 170, 236), rgb(160,214,245));
+}
+
+.menu_navegacion {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.menu_navegacion ul {
+    list-style: none;
+    display: flex; 
+    padding: 0;
+    margin: 0; 
+}
+
+.menu_navegacion li {
+    margin: 0 10px; 
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: 4rem;
+margin-top: 20px;
+}
+
+.nav_img {
+    margin-top: 10px;
+}
+
+.img_nav {
+    width: 60px;
+}
+
+.div_nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.menu_navegacion {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.menu_navegacion ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-inline: 16px;
+}
+
+.menu_navegacion li {
+    margin: 0 15px;
+}
+
+.boton-nav {
+    background-color: rgb(0, 14, 216);
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    color:white;
+}
+
+.div_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.content {
+    margin-right: 15rem;
+    width: 30rem;
+}
+
+.content h1 {
+    font-size: 50px;
+}
+
+.content p {
+    font-size: 25px;
+}
+
+.content .boton_1 {
+    background-color: rgb(0, 14, 216);
+    width: 180px;
+    height: 44px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.content .boton_2 {
+    background-color: transparent;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor:pointer;
+}
+
+.download {
+    background-color: rgb(0, 14, 216);
+    width: 140px;
+    height: 28px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
